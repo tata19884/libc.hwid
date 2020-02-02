@@ -1,5 +1,5 @@
 # libc.hwid
-## Unique ID generator for distributing your .Net Core (.Net Framework 4.6.1+) software (Ubuntu & Windows)
+## Unique ID generator for protecting your distributed .net software (Ubuntu & Windows)
 
 ### Why we need this?
 - We want to distribute a software and we worry about possible copyright violations.
