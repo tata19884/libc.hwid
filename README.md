@@ -32,4 +32,4 @@ Just add this nuget package [![libc.hwid](https://img.shields.io/nuget/v/Dapper.
 ```
 var hardwareId = libc.hwid.HwId.Generate();
 ```
-Look at the simple test to understand the usage
+Take a look at tests to understand the usage better
