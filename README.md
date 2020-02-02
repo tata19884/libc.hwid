@@ -27,7 +27,8 @@ The nuget package is written as a __.Net Standard 2.0__ class library, so you ca
 - .Net Standard 2.0+
 - .Net Core 2.0+
 - .Net Framework 4.6.1+
-You can add this nuget package [![libc.hwid](https://img.shields.io/nuget/v/Dapper.svg)](https://www.nuget.org/packages/libc.hwid/) to your project and use as below:
+
+Just add this nuget package [![libc.hwid](https://img.shields.io/nuget/v/Dapper.svg)](https://www.nuget.org/packages/libc.hwid/) to your project and use as below:
 ```
 var hardwareId = libc.hwid.HwId.Generate();
 ```
