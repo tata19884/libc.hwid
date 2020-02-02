@@ -1,5 +1,5 @@
 # libc.hwid
-## Unique ID generator for distributing your .Net Core software (Ubuntu & Windows)
+## Unique ID generator for distributing your .Net Core (.Net Framework 4.6.1+) software (Ubuntu & Windows)
 
 ### Why we need this?
 - We want to distribute a software and we worry about possible copyright violations.
@@ -22,8 +22,11 @@
 - Windows 8.1
 - Windows 10
 
-### Usage
-
+### Usage:
+The nuget package is written as a __.Net Standard 2.0__ class library, so you can use it in the following project types:
+- .Net Standard 2.0+
+- .Net Core 2.0+
+- .Net Framework 4.6.1+
 You can add this nuget package [![libc.hwid](https://img.shields.io/nuget/v/Dapper.svg)](https://www.nuget.org/packages/libc.hwid/) to your project and use as below:
 ```
 var hardwareId = libc.hwid.HwId.Generate();
