@@ -1,5 +1,6 @@
 # libc.hwid
-## Unique ID generator for protecting your distributed .net software (Ubuntu & Windows)
+## C# cross platform hardware ID generator
+### Unique hardware ID generator for protecting your distributed .net software (Ubuntu & Windows)
 
 ### Why we need this?
 - We want to distribute a software and we worry about possible copyright violations.
